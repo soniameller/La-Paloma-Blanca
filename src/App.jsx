@@ -1,4 +1,5 @@
 import "./App.css";
+import image from "./assets/Mallorca.jpg";
 
 function App() {
   return (
@@ -15,6 +16,11 @@ function App() {
           <p className="text-base text-gray-900 mt-12">
             Virginia Bocking Adamson
           </p>
+          <img
+            src={image}
+            alt="Mallorca"
+            className="w-150 h-auto mx-auto mt-8"
+          />
         </div>
 
         {/* Índice */}
